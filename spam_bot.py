@@ -20,7 +20,7 @@ async def main():
     print("Бот запущен! Начинаю рассылку...")
     
     while True:
-        # Проходимся по списку чатов
+
         for chat in target_chats:
 
             message_text = f'''
